@@ -66,7 +66,7 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Updates Channel', url='https://t.me/Emma_Stone_News')
+                        InlineKeyboardButton('Updates Channel', url='https://t.me/Emma_Stone_Updates')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -99,7 +99,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Creator", url="https://t.me/Zayn_LaiQ"),
-                        InlineKeyboardButton("How to use Me ❕", url="https://t.me/Emma_Stone_News")
+                        InlineKeyboardButton("How to use Me ❕", url="https://t.me/Emma_Stone_Updates")
                     ],
                     [
                         InlineKeyboardButton("➕ Add me to your group", url="https://t.me/Emma_Stone_Robot?startgroup=true")
@@ -192,7 +192,7 @@ async def bot_info(bot, message):
     buttons = [
         [
             InlineKeyboardButton('Creator', url='https://t.me/Zayn_Laiq'),
-            InlineKeyboardButton('Channel', url='https://t.me/Emma_Stone_News')
+            InlineKeyboardButton('Channel', url='https://t.me/Emma_Stone_Updates')
         ]
         ]
     await message.reply(text="<b>It's very easy to use me.\nJust add me to your group & make me admin. That's it</b> ♻️\n \n<b>If you want to add your files in my database, please contact my <a href='https://t.me/Zayn_LaiQ'>creator</a></b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
